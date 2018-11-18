@@ -1,4 +1,4 @@
-count = 20
+count = 20 #change 20 to what ever number you want
 
 def multiple_3(i):
     if i % 3 == 0:
@@ -17,6 +17,4 @@ def main():
     for i in range(count):
         if multiple_3(i) == True or multiple_5(i) == True:
             print(str(i))
-
 main()
-
