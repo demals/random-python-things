@@ -4,7 +4,7 @@ def difficulty(n):
     if n == 1:
         return ["black","blue","brown","grey","green","orange","pink","purple","red","white","yellow"]
     if n == 2:
-        return {"acres","adult","advice","arrangement","attempt","August","Autumn","border"}
+        return ["acres","adult","advice","arrangement","attempt","August","Autumn","border"]
     if n == 3:
         return ["abruptly","absurd","abyss","affix","askew","avenue","awkward","axiom","azure","bagpipes","bandwagon","banjo"]
 def game():
