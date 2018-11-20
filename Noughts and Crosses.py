@@ -36,6 +36,8 @@ def picker_2(symbol):
 def user(symbol,grid,p_number):
     user  = int(input("Player " + str(p_number) + " what space do you want? "))
     while True:
+        if user == 0:
+            user = int(input("you can't have that dude, pick another space: "))
         if grid[user] == " ":
             grid[user] = symbol
             return grid
@@ -75,8 +77,8 @@ def pvp():
         player_number += 1
 
 def cpu(symbol,grid):
-    i = random.randint(1,10)
     while True:
+        i = random.randint(1,9)
         if grid[i] == " ":
             grid[i] = symbol
             return grid
