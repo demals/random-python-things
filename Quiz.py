@@ -27,7 +27,6 @@ def quiz():
             continue
     file.close()
     score = 0
-    print(question_list)
     for qa in question_list:
         question,answer = qa.split("¬")
         print(question)
